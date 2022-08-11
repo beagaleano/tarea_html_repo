@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formatos de textos</title>
+	<link rel="stylesheet" href="css/estiloprincipal.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<a href="index.html">Inicio</a>
+		<a href="listas.html">Listas</a>
+		<a href="imagenes.html">Imágenes</a>
+		<a href="tablas.html">Tablas</a>
+		<a href="formularios.html">Formularios</a>
+	</nav>
+	<hr>
+	<h1>Etiquetas para formularios</h1>
+	<hr>
+	
+	<h3>Ejemplo</h3>
+
+	<form>
+
+		<label for="nombre">Nombre</label>
+		<input
+		 type="text" 
+		 id="nombre"
+		 placeholder="Ingrese su nombre">
+
+
+		 <br><br>
+
+
+		<label for="contraseña">Contraseña</label>
+		<input
+		 type="password" 
+		 id="contraseña"
+		 placeholder="Ingrese su contraseña">
+
+		 <br><br>
+
+		<select name="ciudad"> 
+		 	<option value="Katuete">Katuete</option>
+		 	<option value="Nueva Esperanza">Nueva Esperanza</option>
+		 	<option value="Asunción">Asunción</option>
+		</select>
+
+		<br>
+
+		<label>Sexo:</label>
+		<input type="radio" name=sexo value="masculino"> Masculino
+		<input type="radio" name=sexo value="femenino"> Femenino
+
+		<br>
+		<input type="submit">
+
+
+	</form>
+
+</body>
+</html>

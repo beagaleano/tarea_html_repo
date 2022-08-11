@@ -1,0 +1,16 @@
+body{
+width: 80%;
+margin: 0 auto;
+}
+h1{
+text-align: center; font-family: 'Oleo Script Swash Caps', cursive;
+}
+nav a {
+	text-decoration: none;
+	margin-left: 15px;/*es el espacion entre inicio, listas,imagenes, tablas*/
+}
+nav a:hover{/*lo que hace hover es alterar el elemento cuando se pone el mouse arriba*/
+	color: pink;
+	background: blue;/*fondo al levar el mouse arriba*/
+	padding: 10px 15px;/*cambia el tamaño de la palabra*/
+}
