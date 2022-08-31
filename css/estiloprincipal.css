@@ -3,14 +3,47 @@ width: 80%;
 margin: 0 auto;
 }
 h1{
-text-align: center; font-family: 'Oleo Script Swash Caps', cursive;
+text-align: center; font-family: bold italic;
+color: white;
 }
 nav a {
 	text-decoration: none;
-	margin-left: 15px;/*es el espacion entre inicio, listas,imagenes, tablas*/
+	margin-left: 110px;/*es el espacion entre inicio, peliculas,estrenos, soporte*/
 }
 nav a:hover{/*lo que hace hover es alterar el elemento cuando se pone el mouse arriba*/
-	color: pink;
-	background: blue;/*fondo al levar el mouse arriba*/
-	padding: 10px 15px;/*cambia el tamaño de la palabra*/
+	color: white;
+	background:red;/*fondo al llevar el mouse arriba*/
+	padding: 8px	 15px;/*cambia el tamaño de la palabra*/
+}
+.contenedor-imagen{
+	height: center;
+
+}
+.contenedor-imagen img {
+	width: 90%;
+	height: 110%;
+	vertical-align: top; /*arriba*/
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+ .navbar{
+ 	background: purple;
+ 	position: sticky;
+ 	top: 0;
+ }
+ body{
+ 	background-color: black;
+ }
+ nav {
+ color: white;
+ }
+form{
+color: green;
+}
+table, th, td{
+border: 1px solid white;
+border-collapse: collapse;
+}
+h3, p{
+color: white;
 }
